@@ -1,0 +1,7 @@
+Apos feita a instalação dos pacotes do npm faça isso:
+https://github.com/pedroslopez/whatsapp-web.js/issues/2473
+
+
+Modify selector in node_modules/whatsapp-web.js/Client.js line 175 Now I used textbox as selector
+
+const INTRO_IMG_SELECTOR = 'div[role=\'textbox\']'; //'[data-icon=\'chat\']';
